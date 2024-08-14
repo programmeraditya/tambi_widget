@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Widget Example</title>
+  </head>
+  <body>
+    <h1>Welcome to my CHAT-BOT</h1>
+
+    <div id="chatbot-container"></div>
+    <!-- Use the same ID as specified in the embed script -->
+
+    <!-- Load React and ReactDOM if not already loaded -->
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script type="text/javascript">
+      window.tambiId = "tambi-testing"; 
+      window.tambiKey = "r#f7%a*em@m1j*ois5hbfp8nat2)x^+9eiv^ud6*q9yv9u$cuk"; 
+      window.chatHeadName = "My ChatBot"; 
+    </script>
+    <!-- Replace the local path with the URL where your embed.js is hosted -->
+    <script src="https://minio-server-e16r.onrender.com/tambi-web-widget/embed.js"></script>
+  </body>
+</html>
